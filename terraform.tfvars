@@ -1,0 +1,16 @@
+KeyName                  = ""
+LatestAmiId              = "/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2"
+ClusterBaseName          = "myeks"
+KubernetesVersion        = "1.26"
+WorkerNodeInstanceType   = "t3.micro"
+WorkerNodeCount          = 3
+WorkerNodeVolumesize     = 30
+TargetRegion             = "ap-northeast-2"
+AvailabilityZone1        = "ap-northeast-2a"
+AvailabilityZone2        = "ap-northeast-2b"
+AvailabilityZone3        = "ap-northeast-2c"
+VpcBlock                 = "192.168.0.0/16"
+PublicSubnet1Block       = "192.168.1.0/24"
+PublicSubnet2Block       = "192.168.2.0/24"
+PublicSubnet3Block       = "192.168.3.0/24"
+BastionInstanceType      = "t3.micro"
